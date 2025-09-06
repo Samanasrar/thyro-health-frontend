@@ -22,7 +22,7 @@ const HomeHero = () => {
     </Button>
   </div>
 
-  {/* Image Section */}
+
   <div>
     <img
       src={Hero}
