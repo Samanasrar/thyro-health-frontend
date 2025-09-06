@@ -31,7 +31,7 @@ const Symptoms = () => {
 
   return (
     <div className="max-w-full px-6 md:px-20 py-12">
-      {/* Heading */}
+      
       <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-12 mt-3">
         <span className="underline underline-offset-8 md:underline-offset-10 decoration-4 decoration-[#9575CD]">
           Symp
@@ -39,7 +39,7 @@ const Symptoms = () => {
         toms that can be managed perfectly
       </h2>
 
-      {/* Cards Section */}
+     
       <div
         className="
           flex gap-5 overflow-x-auto snap-x snap-mandatory scroll-smooth
