@@ -45,7 +45,7 @@ const HolisticTreatment = () => {
           </p>
         </div>
 
-        {/* Right Cards Grid */}
+  
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
           {HolisticTreatmentList.map((treatment, index) => (
             <div key={index} className="w-full">
