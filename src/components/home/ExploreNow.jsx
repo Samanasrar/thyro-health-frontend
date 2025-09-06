@@ -7,7 +7,7 @@ const ExploreNow = () => {
       className="relative w-full h-[40vh] sm:h-[50vh] lg:h-[70vh] bg-cover bg-center"
       style={{ backgroundImage: `url(${explore})` }}
     >
-      {/* Dark overlay for better readability */}
+      
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
