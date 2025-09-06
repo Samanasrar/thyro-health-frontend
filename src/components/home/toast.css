@@ -1,4 +1,3 @@
- /* General Toast Styles */
 .Toastify__toast {
   border-radius: 12px;
   font-family: "Poppins", sans-serif;
@@ -6,19 +5,15 @@
   font-size: 14px;
 }
 
-/* Success */
 .Toastify__toast--success {
   background: #6a5794;
   color: #fff;
 }
 
-/* Error */
 .Toastify__toast--error {
   background: #b91c1c;
   color: #fff;
 }
-
-/* Warning */
 .Toastify__toast--warning {
   background: #f59e0b;
   color: #fff;
