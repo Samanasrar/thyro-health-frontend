@@ -30,14 +30,25 @@ export default function Header() {
           <span className="font-semibold text-md sm:text-2xl text-[#6A5794]">Thyro Health</span>
         </div>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex gap-6">
-          {navLinks.map((link) => (
-            <NavLink key={link.name} to={link.path} className={navLinkClasses}>
-              {link.name}
-            </NavLink>
-          ))}
-        </div>
+      {/* Desktop Menu */}
+<div className="hidden md:flex gap-6">
+  {navLinks.map((link) =>
+    link.path === "#" ? (
+      <a
+        key={link.name}
+        href="#"
+        className="font-semibold text-gray-600 hover:text-[#6A5794]"
+      >
+        {link.name}
+      </a>
+    ) : (
+      <NavLink key={link.name} to={link.path} className={navLinkClasses}>
+        {link.name}
+      </NavLink>
+    )
+  )}
+</div>
+
 
         {/* Right Icons */}
         <div className="flex gap-4 items-center">
