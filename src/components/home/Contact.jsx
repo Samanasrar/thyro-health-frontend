@@ -61,7 +61,7 @@ const Contact = () => {
 
   return (
     <div className="max-w-full mx-auto px-4 sm:px-10 lg:px-25 py-12 grid grid-cols-1 md:grid-cols-[1.2fr_0.8fr] gap-20 bg-[#EDE7F6]">
-      {/* LEFT SIDE */}
+    
       <div className="space-y-6">
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#6A5794]">
           Contact Information
@@ -100,7 +100,6 @@ const Contact = () => {
         </a>
       </div>
 
-      {/* RIGHT SIDE */}
       <div className="bg-white shadow-lg rounded-2xl p-8">
         <h2 className="text-2xl md:text-3xl font-bold text-center text-[#6A5794] mb-8">
           Ask A Question
