@@ -6,7 +6,7 @@ const HomeHero = () => {
   return (
  <div className="bg-[#1d293d] grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 max-w-full">
   
-  {/* Text Section */}
+  
   <div className="flex flex-col justify-center pt-16 text-left px-5 lg:px-12 md:px-7  md:text-left mx-auto md:mx-0 mt-4 md:mt-4 lg:mt-0">
     <h3 className="text-white text-sm md:text-xl lg:2xl font-medium mb-6">
       <span className="text-[#9575CD] text-2xl md:text-4xl lg:text-5xl font-bold">91% </span> 
