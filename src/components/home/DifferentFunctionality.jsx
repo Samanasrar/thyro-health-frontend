@@ -42,7 +42,7 @@ const DifferentFunctionality = () => {
         </p>
       </div>
 
-      {/* Cards Section */}
+     
       <div
         className="
           flex gap-5 overflow-x-auto snap-x snap-mandatory scroll-smooth
