@@ -12,13 +12,13 @@ const Footer = () => {
     <footer className="bg-gray-900 text-gray-300 px-6 py-10">
       <div className="max-w-7xl mx-auto flex flex-col items-center space-y-8">
 
-        {/* Logo and Brand */}
+        
         <div className="flex items-center space-y-2">
           <img src={logo} alt="Thyro Health Logo" className="h-10 w-10" />
           <span className="text-xl font-semibold text-white">Thyro Health</span>
         </div>
 
-        {/* Navigation Links */}
+        
         <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-center">
           <li><a href="#" className="hover:text-white">Terms of Service</a></li>
           <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
           <li><a href="#" className="hover:text-white">Sitemap</a></li>
         </ul>
 
-        {/* Social Icons */}
+       
         <div className="flex justify-center space-x-4">
           <a
             href="#"
@@ -66,10 +66,10 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Bottom Row */}
+    
         <div className="w-full flex flex-col md:flex-row md:justify-between md:items-center gap-4 pt-6 border-t border-gray-700 text-sm">
           
-          {/* Language Selector */}
+         
           <div className="flex justify-center md:justify-start">
             <select className="bg-gray-800 text-gray-300 px-5 py-2 rounded w-40">
               <option>English</option>
@@ -78,7 +78,7 @@ const Footer = () => {
             </select>
           </div>
 
-          {/* Copyright */}
+          
           <div className="flex justify-center md:justify-end text-gray-500">
             © {new Date().getFullYear()} Thyro Health. All rights reserved.
           </div>
