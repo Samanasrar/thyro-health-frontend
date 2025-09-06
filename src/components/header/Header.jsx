@@ -10,8 +10,8 @@ export default function Header() {
   // nav links
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Products", path: "/products" },
-    { name: "Membership", path: "/membership" },
+    { name: "Products", path: "/" },
+    { name: "Membership", path: "/" },
   ];
 
   // helper for NavLink styles
